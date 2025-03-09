@@ -1,0 +1,14 @@
+D:\project c#\ITI_FullStack_DotNet\Day02_OOP\bin\Debug\net8.0\Day02_OOP.exe
+D:\project c#\ITI_FullStack_DotNet\Day02_OOP\bin\Debug\net8.0\Day02_OOP.deps.json
+D:\project c#\ITI_FullStack_DotNet\Day02_OOP\bin\Debug\net8.0\Day02_OOP.runtimeconfig.json
+D:\project c#\ITI_FullStack_DotNet\Day02_OOP\bin\Debug\net8.0\Day02_OOP.dll
+D:\project c#\ITI_FullStack_DotNet\Day02_OOP\bin\Debug\net8.0\Day02_OOP.pdb
+D:\project c#\ITI_FullStack_DotNet\Day02_OOP\obj\Debug\net8.0\Day02_OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\project c#\ITI_FullStack_DotNet\Day02_OOP\obj\Debug\net8.0\Day02_OOP.AssemblyInfoInputs.cache
+D:\project c#\ITI_FullStack_DotNet\Day02_OOP\obj\Debug\net8.0\Day02_OOP.AssemblyInfo.cs
+D:\project c#\ITI_FullStack_DotNet\Day02_OOP\obj\Debug\net8.0\Day02_OOP.csproj.CoreCompileInputs.cache
+D:\project c#\ITI_FullStack_DotNet\Day02_OOP\obj\Debug\net8.0\Day02_OOP.dll
+D:\project c#\ITI_FullStack_DotNet\Day02_OOP\obj\Debug\net8.0\refint\Day02_OOP.dll
+D:\project c#\ITI_FullStack_DotNet\Day02_OOP\obj\Debug\net8.0\Day02_OOP.pdb
+D:\project c#\ITI_FullStack_DotNet\Day02_OOP\obj\Debug\net8.0\Day02_OOP.genruntimeconfig.cache
+D:\project c#\ITI_FullStack_DotNet\Day02_OOP\obj\Debug\net8.0\ref\Day02_OOP.dll
