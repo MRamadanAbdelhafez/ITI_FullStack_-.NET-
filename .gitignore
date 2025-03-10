@@ -1,0 +1,16 @@
+# Ignore Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.db
+*.opendb
+*.VC.db
+
+# Ignore build and NuGet files
+bin/
+obj/
+*.nuget.*
+project.assets.json
+project.nuget.cache
+*.dll
+*.exe

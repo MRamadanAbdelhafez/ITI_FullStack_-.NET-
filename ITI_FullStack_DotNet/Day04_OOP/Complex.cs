@@ -4,13 +4,56 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace task2
+namespace Day04_OOP
 {
     class Complex
     {
+        #region Data type
         private int real;
-        private int img;
-
+        private int img; 
+        #endregion
+        #region Property
+        public int Real
+        {
+            set
+            {
+                this.real = value;
+            }
+            get 
+            {
+                return real;
+            }
+        }
+        public int Img
+        {
+            set
+            {
+                this.img = value;
+            }
+            get
+            {
+                return img;
+            }
+        }
+        #endregion
+        #region ctor
+        public Complex()
+        {
+            real = 1;
+            Img = 1;
+        }
+        public Complex(int _real)
+        {
+            this.real = _real;
+            img = 0;
+        }
+        public Complex(int _real, int _img)
+        {
+            this.real = _real;
+            this.img = _img;
+        } 
+        #endregion
+        #region geter and seter
         public void SetReal(int paramReal)
         {
             real = paramReal;
@@ -27,8 +70,10 @@ namespace task2
         {
             return img;
         }
-        
-        public Complex add (Complex part_2)
+
+        #endregion
+        #region F of Add
+        public Complex add(Complex part_2)
         {
             Complex result = new Complex();
 
@@ -36,6 +81,8 @@ namespace task2
             result.img = img + part_2.img;
             return result;
         }
+        #endregion
+        #region F of print
         public string print()
         {
             if (img == 0)
@@ -77,12 +124,13 @@ namespace task2
                     return $" the numper is {real}i";
                 }
                 return $" the numper is {real}{img}i";
-            
+
             }
             else
             {
                 return $" the numper is {real}+{img}i";
             }
-        }
+        } 
+        #endregion
     }
 }
