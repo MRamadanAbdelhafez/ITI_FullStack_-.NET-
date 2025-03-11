@@ -30,11 +30,11 @@ namespace Day05_OOP
         }
         #endregion
         #region Stack fun
-        public void Push(int numper)
+        public void Push(int number)
         {
             if (!IsFull())
             {
-                arr[top] = numper;
+                arr[top] = number;
                 top++;
             }
             else
