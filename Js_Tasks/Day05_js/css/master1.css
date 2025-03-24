@@ -1,0 +1,16 @@
+img {
+height: 400px;
+width: 400px;
+}
+.contaner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+}
+.contaner button {
+    width: fit-content;
+    background-color: #57b3ff;
+    padding: 5px;
+    border-radius: 3px;
+}

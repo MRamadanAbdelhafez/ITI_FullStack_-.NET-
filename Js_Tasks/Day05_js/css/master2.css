@@ -1,0 +1,10 @@
+table{
+    border: 3px solid rgb(0, 0, 0);
+}
+td ,th{
+    margin: 0;
+    border: 1px solid rgb(124, 124, 124);
+}
+span{
+    display: block;
+}
