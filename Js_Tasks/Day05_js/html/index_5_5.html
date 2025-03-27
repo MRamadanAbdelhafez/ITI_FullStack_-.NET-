@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/master5.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Form Validation</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <span class="msg" id="msg_name">test</span>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <span class="msg"id="msg_email">test</span>
+
+            <div class="form-group">
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="password">
+            </div>
+            <span class="msg" id="msg_pass">test</span>
+
+            <div class="form-group">
+                <label>Gender:</label>
+                <div class="gender-options">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <span class="msg" id="msg_gender">test</span>
+            <div class="form-group">
+                <label>Sports:</label>
+                <div class="sports-options">
+                    <input type="checkbox" name="sports" id="tennis">
+                    <label for="tennis">Tennis</label>
+
+                    <input type="checkbox" name="sports" id="running">
+                    <label for="running">Running</label>
+
+                    <input type="checkbox" name="sports" id="football">
+                    <label for="football">Football</label>
+                </div>
+            </div>
+            <span class="msg" id="msg_sports">test</span>
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <select name="country" id="country">
+                    <option value="">Select your country</option>
+                    <option value="egypt">Egypt</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                </select>
+            </div>
+            <span class="msg" id="msg_country">test</span>
+
+            <button type="submit" id="submit">Submit</button>
+        </form>
+</div>
+    <script src="../js/main5.js"></script>
+</body>
+</html>
