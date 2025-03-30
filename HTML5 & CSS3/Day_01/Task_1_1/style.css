@@ -1,0 +1,470 @@
+/* ======== global style ============ */
+
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+
+.btn {
+  background-color: #c59c84;
+  color: #fff;
+  padding: 25px 60px;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* =============== header ============= */
+
+
+header {
+  background-color: #fff;
+}
+
+header .logo {
+  float: left;
+  margin: 30px 0px 0px 60px;
+}
+
+header nav {
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul,
+.visit-us {
+  display: inline-block;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 0px 25px;
+}
+
+header ul li a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #101A31;
+}
+
+.visit-us {
+  background-color: #BE9278;
+  color: #fff;
+  padding: 30px 65px;
+  margin-left: 80px;
+}
+
+
+/* ============ hero section ========= */
+
+.hero-section {
+  height: 850px;
+  /* height: 100vh; */
+  background: linear-gradient(to right, rgba(16, 26, 48, 0.7) 0%, rgba(16, 26, 48, 0.7) 12%, #101a31 91%, #101a31 100%), url("images/h1_hero.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+.hero-section .hero-content {
+  position: absolute;
+  color: #fff;
+  left: 10%;
+  top: 20%;
+  width: 40%;
+}
+
+.hero-content img {
+  margin-bottom: 30px;
+}
+
+.hero-content h1 {
+  font-size: 76px;
+  line-height: 83.6px;
+  font-weight:
+    600
+}
+
+.hero-content p {
+  width: 78%;
+  line-height: 30px;
+  margin: 20px 0px 30px 0px;
+}
+
+
+.hero-section .hero-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 750px;
+
+}
+
+.hero-img img {
+  height: 100%;
+  width: 660px;
+}
+
+/* =============== Services =============== */
+
+main {
+  width: 80%;
+  margin: 100px auto;
+}
+
+main .offer {
+  display: inline-block;
+  width: 33%;
+}
+
+.offer-img {
+  padding: 40px;
+}
+
+
+.offer img {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.offer-content {
+  padding: 0px 40px;
+  position: relative;
+}
+
+.offer-content span {
+  width: 35px;
+  height: 35px;
+  background-color: #c6a16e;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  position: absolute;
+  left: -20px;
+  top: 1px;
+}
+
+.offer-content h3 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 600;
+  color: #101A31;
+}
+
+.offer-content p {
+  line-height:
+    30px;
+  color: #101a31;
+  width: 85%;
+}
+
+/* =================== About =========== */
+
+.about {
+  width: 85%;
+  margin: 100px auto;
+  height: 800px;
+  position: relative;
+}
+
+.about-img {
+  position: absolute;
+  z-index: 5;
+  top: 15%;
+
+}
+
+.about-img img {
+  width: 660px;
+  height: 570px;
+}
+
+.about-content {
+  position: absolute;
+  background-color: #f2e1d9;
+  width: 70%;
+  right: 0;
+  height: 100%;
+}
+
+.about-cap {
+  position: absolute;
+  top: 25%;
+  left: 38%;
+}
+
+.about-cap h2 {
+  font-size: 56px;
+  color:
+    #101a31;
+  font-weight:
+    600;
+  line-height:
+    67.2px
+}
+
+.about-cap .first-p {
+  font-size:
+    18px;
+  color:
+    #010a44;
+  line-height:
+    30px;
+  width: 80%;
+  margin-top: 30px;
+}
+
+.about-cap .second-p {
+  color:
+    #10285d;
+  font-size: 14px;
+  line-height:
+    30px;
+  width: 80%;
+  margin: 20px 0px;
+}
+/* =================Why use our service====================== */
+
+.ourService{
+  width: 88%;
+  margin: 10px auto;
+}
+.ourService-header h2 {
+  margin: auto;
+  text-align: center;
+  color:#101A31;
+font-weight:600;
+font-size:53px;
+line-height:74.2px;
+
+}
+.ourService-header p {
+  color:#101A31;
+font-size:18px;
+font-weight:500;
+text-align: center;
+margin: auto;
+line-height:30px;
+width: 52%;
+}
+.ourService-body{
+  position: relative;
+  margin-top: 50px;
+}
+.ourService-body-card{
+  display: inline-block;
+  width: 25%;
+  margin: auto;
+}
+.ourService-body-card h5 {
+  margin: 20px auto;
+  font-size:24px;
+  line-height:28.8px;
+  font-weight:600;
+}
+.ourService-body-card p {
+  color:#101A31;
+  font-size:14px;
+  line-height:26.6px;
+  font-weight:400;
+  width:80% ;
+}
+/* ===================videos============== */
+.video-backgrund{
+  height: 100vh;
+  background: url("images/video-bg.png.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.video-backgrund a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-color: #010a44;
+  border-radius: 50%;
+  line-height: 45px;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+/* ====================quote=================== */
+.quote{
+  width: 750px;
+  margin: 150px auto ;
+  position: relative;
+}
+.quote-text img {
+  position: absolute;
+  top: -70px;
+  left: -80px;
+  z-index: -1;
+}
+.quote-text p{
+  color:  #010A44;
+  font-size:19px;
+  line-height:30.4px;
+  font-weight:400;
+}
+.quote-person{
+  margin-top: 50px;
+position: relative;
+width: 50%;
+}
+.quote-person img {
+}
+.quote-person-txt{
+  display: inline-block;
+  position: absolute;
+  top: 20%;
+}
+.quote-person-txt span{
+  color:#1D2547;
+font-size:22px;
+line-height:33px;
+font-weight:500;
+}
+.quote-person-txt p{
+  color:#646D77;
+font-size:14px;
+line-height:30px;
+font-weight:400;
+}
+/* =====================instagram================== */
+.instagram{
+width: 95%;
+margin: 100px auto;
+}
+.instagram-text{
+text-align: center;
+margin: auto;
+}
+.instagram-text h2 {
+  color:  #101A31;
+  font-size:  53px;
+  line-height:74.2px;
+font-weight:600;
+}
+.instagram-text p {
+  color:#101A31;
+font-size:18px;
+line-height:30px;
+font-weight:500;
+width: 550px;
+margin: auto ;
+}
+.instagram-photos{
+  margin: 100px;
+}
+.instagram-photos img{
+  width: 49%;
+  margin: auto;
+}
+ /* ================= Footer ============= */
+
+footer {
+  background: #0f1931;
+  color: #fff;
+  padding: 30px 0px;
+  position: relative;
+  height: 100vh;
+}
+footer .Contact{
+position: absolute;
+top: 20%;
+right: 10%;
+
+}
+footer .Contact p {
+  font-size: 16xp;
+  line-height: 28.8px;
+  font-weight: 400;
+  width: 300px;
+  margin: 30px 0;
+
+}
+footer .Contact h5 a {
+  color:#BE9278;
+font-size: 26px;
+line-height: 39px;
+font-weight: 300;
+
+}
+footer .Contact a {
+  
+color:#BE9278;
+font-size: 14px;
+line-height:21px;
+font-weight:300;
+margin-top: 20px;
+display: inline-block;
+
+
+}
+footer .linkes{
+  position: absolute;
+  top: 20%;
+  right: 3%;
+}
+footer .linkes h4{
+  color:  #BE9278;
+  font-size:24px;
+line-height:28.8px;
+font-weight:600;
+margin-bottom: 40px;
+}
+footer li {
+font-size:
+16px;
+line-height:
+24px;
+font-weight:
+300;
+margin-bottom: 10px;
+}
+footer .map img {
+  width: 580px;
+  height: 500px;
+  position: absolute;
+  bottom: 0;
+  left:  0;
+}
+.last{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
