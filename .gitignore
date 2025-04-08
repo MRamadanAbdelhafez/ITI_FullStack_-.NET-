@@ -1,5 +1,11 @@
 # Created by https://www.toptal.com/developers/gitignore/api/csharp
 # Edit at https://www.toptal.com/developers/gitignore?templates=csharp
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.svg
+**/*.webp
 
 ### Csharp ###
 ## Ignore Visual Studio temporary files, build results, and
